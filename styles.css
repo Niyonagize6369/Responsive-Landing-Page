@@ -34,9 +34,15 @@ body {
   text-decoration: none;
   transition: color 0.3s;
 }
+.nav-links a footer {
+    display: flex;
+    
+    color: #ffff;
+    text-decoration: none;
+    transition: color 0.3s; }
 
 .nav-links a:hover {
-  color: #464644;
+  color: #767674;
 }
 
 /* Hero Section */
@@ -172,7 +178,7 @@ input:focus {
 }
 
 .success-message {
-    color: green;
+    color: rgb(35, 224, 35);
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
