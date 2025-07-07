@@ -36,10 +36,12 @@ body {
 }
 .nav-links a footer {
     display: flex;
-    
+    justify-content: center;
     color: #ffff;
     text-decoration: none;
     transition: color 0.3s; }
+    
+    
 
 .nav-links a:hover {
   color: #767674;
@@ -106,6 +108,7 @@ body {
   text-align: center;
   background-color: #4b4a4a;
   color: #fff;
+  
 }
 
 /* Animations */
