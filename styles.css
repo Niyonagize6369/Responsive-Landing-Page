@@ -189,7 +189,7 @@ input:focus {
 .counter-section {
     padding: 3rem 1rem;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
 }
 
 .counter-container {
@@ -212,7 +212,7 @@ input:focus {
     padding: 0.5rem 1.5rem;
     font-size: 1.5rem;
     border: none;
-    background-color: #3498db;
+    background-color: #65b7ee;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -221,5 +221,5 @@ input:focus {
 
 .counter-container button:hover,
 .reset-btn:hover {
-    background-color: #2980b9;
+    background-color: #65b7ee;
 }
