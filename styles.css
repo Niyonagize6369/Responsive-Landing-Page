@@ -72,7 +72,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #f1c40f;
+  background-color:rgb(108, 108, 241);
+  
 }
 
 /* Features Section */
@@ -89,7 +90,7 @@ body {
   padding: 1rem;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   animation: slideUp 1s ease;
 }
 
@@ -97,7 +98,7 @@ body {
 .footer {
   padding: 1rem;
   text-align: center;
-  background-color: #333;
+  background-color: #4b4a4a;
   color: #fff;
 }
 
@@ -127,4 +128,52 @@ body {
   .features {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.form-section {
+    padding: 3rem 1rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid rgb(246, 240, 240);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #3b5566;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    height: 1rem;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
 }
