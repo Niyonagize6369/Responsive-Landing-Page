@@ -186,3 +186,40 @@ input:focus {
     text-align: center;
     margin-top: 1rem;
 }
+.counter-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.counter-container span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 80px;
+    display: inline-block;
+}
+
+.counter-container button,
+.reset-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.counter-container button:hover,
+.reset-btn:hover {
+    background-color: #2980b9;
+}
